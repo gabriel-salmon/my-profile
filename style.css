@@ -1,0 +1,143 @@
+body {
+	line-height: 1.2;
+	background-color: #f4f4f4;
+	font-family: 'EB Garamond', serif;
+	color: #2B2D42;
+	text-align: center;
+	font-size: 20px;
+	background-image: url(images/jet_eau_geneve.png);
+	background-size: cover;
+	background-image: center;
+}
+
+h1, h2 {
+	font-family: 'Bree Serif', serif;
+	text-decoration: underline #077187;
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 40px;
+    color: #077187;
+}
+
+h2 {
+	color: #9BC4BC;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	transition: 0.3s ease;
+}
+
+a:hover {
+	color: white;
+	font-weight: bolder;
+}
+
+.container {
+ 	width: 740px;
+ 	margin: 30px auto;
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 620px;
+	}
+}
+
+@media (max-width: 640px){
+	.container {
+		width: 450px;
+	}
+	body {
+		background-image: url(images/jet_eau_geneve.png);
+		background-size: cover;
+		background-image: center;
+	}
+}
+
+.card-white {
+	background: rgba(255,255,255,0.7);
+	border-radius: 5px;
+	box-shadow: 0px 15px 35px rgba(0,0,0,0.2);
+	margin: 20px 0px;
+	padding: 20px 70px;
+}
+
+.card-white:hover {
+	border:1px solid #077187;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4)
+}
+
+#profile {
+	 width: 180px;
+	 height: 180px;
+	 border-radius: 50%;
+	 border:1px solid #077187;
+	 box-shadow: 0px 7px 10px lightgrey;
+}
+
+.img-radius {
+	border: 1px solid #9BC4BC;
+	box-shadow: 0px 7px 15px lightgrey;
+	border-radius: 4%;
+	transition: 0,3s ease;
+} 
+
+.img-radius:hover {
+	border: 3px solid #077187;
+	box-shadow: 0px 11px 20px grey;
+}
+
+#IESEG_foot {
+	 width: 330px;
+	 height: 240px;
+}
+
+#goalkeeper {
+	 width: 130px;
+	 height: 240px;
+}
+
+.btn-darkblue {
+	background-color: #9BC4BC;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+
+.btn-darkblue:hover { 
+	background-color: #077187;
+	font-weight: bold;
+	color: white; 
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li  {
+	display: inline;
+	padding: 12px;
+}
+
+.list-inline i {
+	font-size: 3em;
+}
+
+.list-inline i:hover {
+	font-weight: bold;
+}
+ 
+
+
+
+
+
+
+
